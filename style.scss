@@ -21,8 +21,9 @@ main {
   justify-content: center;
 }
 
-.card__container {
-  margin: 2rem;
+.card {
+  margin: auto;
+  width: 280px;
   border-radius: 1.25rem;
   padding: 1rem;
   text-align: center;
@@ -35,7 +36,7 @@ main {
   }
 
   .card__content {
-    padding: 0.5rem;
+    padding: 0 0.5rem;
 
     h1 {
       color: $dark-blue;
